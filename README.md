@@ -47,7 +47,7 @@ To get started with the project, clone the repository and install the necessary 
     python main_file_1.py
 View Results: After running the model, you'll see the sentiment classification for each review (Positive, Negative, Neutral). 
 
- ##   Project Structure  :
+## Project Structure
 sentiment-analysis-on-e-commerce/
 │
 ├── app.py                    # Flask app (if used for web interface)
@@ -61,13 +61,13 @@ sentiment-analysis-on-e-commerce/
 ├── tfidf_matrix.joblib       # TF-IDF matrix after vectorization
 ├── analyzer.joblib           # Additional model or analyzer used for sentiment classification
 └── requirements.txt          # List of dependencies
-##  Model
+## Model 
 The sentiment analysis model is built using machine learning techniques:
 
 TF-IDF Vectorization: This technique converts the raw text data into numerical features that can be used by machine learning algorithms. The tfidf_vectorizer.joblib file contains the trained vectorizer.
 
 XGBoost: This gradient boosting model is used for classifying the sentiment of reviews (positive, negative, neutral). The Xgboost.joblib file contains the trained model.
-## contributions 
+## Contributing 
 We welcome contributions! To contribute to the project, please follow these steps:
 
 Fork the repository on GitHub.
@@ -76,10 +76,10 @@ git checkout -b feature-name
 git commit -m "Add feature or fix bug"
 git push origin feature-name
 
-##License 
+## License 
 This project is licensed under the MIT License - see the LICENSE file for details. 
 
-Acknowledgments
+## Acknowledgments
 Thanks to the creators of the XGBoost library for providing an efficient and powerful model for classification tasks.
 Special thanks to scikit-learn for providing easy-to-use tools for TF-IDF vectorization.
 Thanks to all the contributors for their help and support in improving the project.  
