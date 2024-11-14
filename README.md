@@ -37,7 +37,7 @@ To get started with the project, clone the repository and install the necessary 
    venv\Scripts\activate
 5.**Install Dependencies**:
   particularly there is no folder to install depencies go through manually  
-  ####    Usage
+ ## Usage
   Once the project is set up, you can run the sentiment analysis on your e-commerce reviews by using the following commands:
  6.**Run the main app**:
    python app.py 
